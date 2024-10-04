@@ -15,12 +15,12 @@ function M.get(config)
       or styles.background
 
   theme = {
-    ColorColumn = { bg = p.none },
-    Conceal = { bg = p.none },
+    ColorColumn = { bg = '#000000' },  -- Very dark, simulating transparency
+    Conceal = { bg = '#000000' },      -- Dark for better contrast
+    CursorColumn = { bg = '#101010' }, -- Dark gray for active elements
+    CursorLine = { bg = '#101010' },
     CurSearch = { link = 'IncSearch' },
     Cursor = { fg = p.color200, bg = p.placeholder },
-    CursorColumn = { bg = p.none },
-    CursorLine = { bg = p.none },
     CursorLineNr = { fg = p.color300 },
     DarkenedPanel = { bg = groups.panel },
     DarkenedStatusline = { bg = groups.panel },
