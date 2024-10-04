@@ -1,6 +1,6 @@
 local variants = {
   main = {
-    placeholder = '#FFFF00',
+    placeholder = '#FAFAFA',
     color100 = '#FAFAFA',
     color200 = '#D4D4D4',
     color300 = '#808080', -- More intense gray
